@@ -1,0 +1,64 @@
+h1 {
+    color:white;
+    margin-left: 120px;
+    padding-left: 120px;
+}
+
+h2 {
+    color:aqua;
+}
+
+.header {
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    justify-content: space-between;
+}
+
+.jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+body {
+    background-color: rgb(66, 39, 39);
+}
+
+a:link {
+    color: #ff0000;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color:aqua;
+}
+
+.trex {
+    position: relative;
+}
+
+.trex:hover img {
+    opacity: 0.4;
+}
+
+.footer {
+    margin-top: 400px;
+}
+
+.footer p {
+    color: aqua
+}
